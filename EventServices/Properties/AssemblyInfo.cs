@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
-// asociada a un ensamblado.
-[assembly: AssemblyTitle("EventosV2")]
+// asociada con un ensamblado.
+[assembly: AssemblyTitle("EventServices")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EventosV2")]
+[assembly: AssemblyProduct("EventServices")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("4d3d10d0-ad79-4d4c-9a78-fc8503552c78")]
+[assembly: Guid("111a35d5-f9ee-4651-8c2a-0d1a3a970a7a")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

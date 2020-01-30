@@ -43,18 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateTimeService.cs" />
-    <Compile Include="EventDTO.cs" />
-    <Compile Include="IDateTimeService.cs" />
-    <Compile Include="IRead.cs" />
-    <Compile Include="IShow.cs" />
-    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventDomain\EventDomain.csproj">
+      <Project>{e9921e7e-cbb0-460e-bf0a-265190814368}</Project>
+      <Name>EventDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventServices\EventServices.csproj">
+      <Project>{111A35D5-F9EE-4651-8C2A-0D1A3A970A7A}</Project>
+      <Name>EventServices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
